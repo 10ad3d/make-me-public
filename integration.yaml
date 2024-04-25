@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://sdk.netlify.com/sdk/config-schema.json
+config:
+  slug: make-me-public
+  name: make-me-public
+  description: Make me public!
+  integrationLevel: site
+  scopes:
+    site: ["read", "write"]
